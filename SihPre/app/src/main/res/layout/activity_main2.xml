@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Pwd"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnNonPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnPwd"
+        android:layout_below="@+id/btnPwd"
+        android:layout_marginTop="76dp"
+        android:text="NonPwd" />
+
+    <Button
+        android:id="@+id/btnSigntoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign to Text"
+        android:layout_below="@+id/btnNonPwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp" />
+
+    <Button
+        android:id="@+id/btnTexttoSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/btnSigntoText"
+        android:layout_marginEnd="89dp"
+        android:layout_marginTop="51dp"
+        android:text="Text to Voice to Sign" />
+</RelativeLayout>
